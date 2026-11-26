@@ -1,0 +1,132 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1A2E4A;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #A0C4E8;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-bar input {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 12px 30px;
+  background-color: #F47B20;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-bar button:hover {
+  background-color: #d4640f;
+}
+
+/* Categories */
+.categories {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #f4f6fa;
+}
+
+.categories h2 {
+  font-size: 32px;
+  color: #1A2E4A;
+  margin-bottom: 30px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.category-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1A2E4A;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.category-card:hover {
+  background-color: #F47B20;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Why Section */
+.why-section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.why-section h2 {
+  font-size: 32px;
+  color: #1A2E4A;
+  margin-bottom: 30px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.why-card {
+  background-color: #f4f6fa;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.why-card span {
+  font-size: 36px;
+}
+
+.why-card h3 {
+  color: #1A2E4A;
+  margin: 10px 0;
+}
+
+.why-card p {
+  color: #64748B;
+  font-size: 14px;
+}

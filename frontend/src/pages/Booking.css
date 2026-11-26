@@ -1,0 +1,156 @@
+.booking-page {
+  min-height: 100vh;
+  background-color: #f4f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.booking-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.booking-box h2 {
+  color: #1A2E4A;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Worker Summary Box */
+.worker-summary {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #f4f6fa;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border-left: 4px solid #F47B20;
+}
+
+.worker-summary span {
+  font-size: 40px;
+}
+
+.worker-summary h3 {
+  color: #1A2E4A;
+  margin: 0 0 4px 0;
+}
+
+.worker-summary p {
+  color: #64748B;
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+/* Form */
+.booking-box label {
+  display: block;
+  color: #1A2E4A;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.booking-box input,
+.booking-box textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.booking-box input:focus,
+.booking-box textarea:focus {
+  outline: none;
+  border-color: #F47B20;
+}
+
+.booking-box button {
+  width: 100%;
+  padding: 13px;
+  background-color: #F47B20;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.booking-box button:hover {
+  background-color: #d4640f;
+}
+
+.back-btn {
+  background-color: #1A2E4A !important;
+  margin-top: 10px !important;
+}
+
+.back-btn:hover {
+  background-color: #0f1e30 !important;
+}
+
+.error-msg {
+  background-color: #fee2e2;
+  color: #dc2626;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Success Box */
+.success-box {
+  background-color: white;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+}
+
+.success-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.success-box h2 {
+  color: #16a34a;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.success-box p {
+  color: #64748B;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.success-box button {
+  margin-top: 25px;
+  padding: 13px 40px;
+  background-color: #F47B20;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+}
